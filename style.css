@@ -1,4 +1,3 @@
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,265 +5,313 @@ body {
   background-color:#fff;
 }
 
-
-.img{
-  max-width: 200px;
-  height: 300px;
-  margin: auto;
-  display: block;
-
-}
-
-#shop-now-or-sale{
-  height:fit-content;
-}
-
-.produkt{
-  width: 500px;
-  height: 200px;
-}
-
-.top-main{
+.logo a{
+  text-decoration: none;
   color: black;
-  font-style: bold;
-  padding: 5px;
-  text-decoration: solid;
 }
 
-.category{
-  color: black;
-  font-style: inherit;
-  font-size: 20px;
-  height: 300px;
-  width: 55px;
-
-}
-#grid-container{
-  display: grid;
-  margin: 0px;
-  justify-content: center;
-  padding: 0px;
-  width: fit-content;
-
-  
-}
-
-#text{
-  border: 1px black;
-  padding: 8px;
-  text-align: left;
-  
-}
-
-.logo{
-  width: 120px;
-  cursor: pointer;
-}
-
-
-.footer-header-text{
-  color: black;
-  font-style: bold;
-
+header{
+  background-color: grey;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
 
 #search_bar{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-}
-
-#table, th, td{
-border:1px solid black;
-}
-
-.seo {
-  width: 700px;
-  height: 300px;
-  
-}
-
-.UU{
-  width: 700px;
-  height: 300px;
-}
-
-#grid-container{
-  display: grid;
-
-}
-
-header {
-  background-color:beige;
-  color:black;
+  margin-top: 10px;
   text-align: center;
-  padding: 15px;
+}
+
+#search_bar input {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container{
+text-align: left;
+font-size: 30px;
+display: flex;
+flex-direction: column;
+font-size: 22px;
+flex-flow: row wrap;
+justify-content: space-between;
+align-items: baseline;
+flex-basis: 50%;
+margin: 1rem auto;
+text-align: center;
+width: 15%;
+}
+
+.shipping-title{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0;
+  text-decoration:solid;
+}
+
+nav{
+margin-top: 10px;
+}
+
+nav ul{
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
+justify-content: space-around;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a{
+  color:black;
+  padding: 1.5em;
+  width: 45%;
+  text-decoration: solid;
+  text-transform: uppercase;
+  text-shadow: #fff;
+  text-decoration-line: underline;
+  font-style: inherit;
+}
+
+nav a:hover,
+nav a:focus { 
+ color:white;
+ text-decoration: underline;
+}
+
+.main-picture{
+  max-width: 200px;
+    height: 300px;
+    display:block;
+    margin: auto;
+}
+
+.banner{
+  margin: 0;
+  padding: 8;
+  background-image: url('img/190905164157-the-realreal-consignment-shop-in-soho.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  color:black;
+  font-family: 'Arial', sans-serif;
+  text-decoration:bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-.navbar{
-  width: 85%;
-  margin: auto;
-  padding: 35px 0;
+.banner i {
+  margin-right: 8px;
+}
+
+.banner:hover,
+.bannner:focus {
+ color:white;
+ text-decoration: underline;
+}
+
+#button-sale-shop-now{
+  background-color: beige; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width:
+}
+
+*{
+  box-sizing: border-box;
+}
+
+#grid{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4,auto);
+}
+
+.flex-sb{
   display: flex;
-  align-items: center;
+  flex-flow: row wrap;
   justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+.flex-sb article {
+  flex-basis: 50%;
+  margin: 1rem auto;
+  text-align: center;
+}
+.flex-sb article img {
+  width: 80%;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-}
-
-nav ul li {
-  margin-right: 20px;
+.text-design{
+  color:black;
+  cursor: pointer;
+  border: 5px solid beige;
+  border-radius: 1px;
+  text-decoration: solid;
   display: inline-block;
 }
 
-
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
+.lorem{
+  text-decoration: solid;
+  display: inline-block;
+  text-size-adjust: inherit;
+  font-size: 1.2em;
 }
 
-
-#account-container {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  gap: 20px;
-  padding: 20px;
-  background-color: #fff;
+.shop-after-category{
+  text-align: center;
+  text-decoration: solid;
   border: 1px solid #ccc;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
-
-#account-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.responsive {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  background-color: #242424;
-  margin: 0;
-  padding: 0;
-  top: 40px;
-  width: 100%;
-  list-style: none;
-}
-
-#account-info h3 {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-#account-info p {
-  font-weight: bold;
-}
-
-
-#account-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#account-nav ul {
-  list-style: none;
-}
-
-#account-nav ul li {
-  margin: 10px 0;
-}
-
-#account-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
-
-
-.footer {
-  background-color:beige;
-  color:black;
+  font-size: 18px;
   text-align: center;
-  padding: 50px;
+  margin: 20px 0;
+}
+
+.pics-category{
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center; 
+  align-items: baseline;
+  flex-basis: 50%;
+  margin: 1rem auto;
+  text-align: center;
+  width: 80%;
+  width: 35%;
+  height: 50%;
 }
 
-
-#icons{
-  list-style: none;
-  display: inline;
-  margin-right: flex;
-  box-sizing: border-box;
-  padding: 1rem;
-  gap: 1rem;
-  
-
-
-
-}
-
-@media only screen and (min-width: 600px) {
-  
-  #grid-container {
-      grid-template-areas: "header header header" "main main main" "footer footer footer";
-  }
-
-
-  .navbar {
-      display: flex;
-      flex-direction: row;
-      gap: 1rem;
-      list-style: none;
-      margin: 0;
-  }
-
-
-  #ham, .fa-magnifying-glass {
-      display: none;
-  }
-
-  
-  .flex-section {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-  }
-
-  
-  .flex-section img {
-      width: 50%;
-  }
-
-  
-  .flex-section section {
-      padding: 1rem;
-      width: 40%;
-      align-self: center;
-  }
-
-
-  .right img {
-      order: 1;
-  }
-}
-  
-  
-
-
-
+.category-text{
+  text-decoration: underline;
+  cursor: pointer;
+  border: 5px solid beige;
+  border-radius: 1px;
+  text-decoration: solid;
+  margin-bottom: 20px;
  
+}
+.footer-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: gray;
+  color: #fff;
+}
+
+.footer-socials{
+  padding: 15px;
+  height: fit-content;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
   
+}
+
+.top-main{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 25px;
+  text-align: center;
+  margin: 20px 0;
+  text-decoration:solid;
+  text-decoration: underline;
+}
+
+.category-mypage{
+  text-align: center;
+  text-decoration: solid;
+  font-size: 20px;
+  margin: 25px 0;
+  color:black;
+}
+
+.product-img{
+  height: auto;
+  border-radius: 8px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-basis: 50%;
+  margin: 1rem auto;
+  text-align: center;
+  width: auto;
+}
+
+#produkter{
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .banner {
+    font-size: 18px;
+  }
+
+  nav a {
+    width: 100%;
+  }
+
+  .main-picture {
+    max-width: 100%;
+  }
+
+  .flex-sb article {
+    flex-basis: 100%;
+    margin: 1rem auto;
+  }
+
+  .pics-category,
+  .product-img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjust styles for screens up to 480px wide */
+  body {
+    font-size: 12px;
+  }
+
+  .banner {
+    font-size: 16px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+}
+
+
+
+    

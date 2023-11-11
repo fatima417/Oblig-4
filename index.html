@@ -3,92 +3,85 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:url" content="https://itstud.hiof.no/~fatimaah/index.html">
         <link rel="stylesheet" href="style.css" type="text/css">
         <link href="css/font/css/fontawesome.css" rel="stylesheet">
         <link href="css/font/css/brands.css" rel="stylesheet">
         <link href="css/font/css/solid.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/f0cec0541e.js" crossorigin="anonymous"></script>
+        <style media="all" id="fa-v4-font-face"></style>
+        <style media="all" id="fa-v5-font-face"></style>
+        <style media="all" id="fa-v4-shims"></style>
+        <style media="all" id="fa-v4-main"></style>
         <title>Forside</title>
     </head>
     <body>
-        <div id="grid-container"></div>
-            <header id="header-grid">
-                <a href="index.html">Level shoes</a>
-                <div class="navbar">
-                    <nav>
-                        <ul>
-                            <li><a href="index.html" class="footer-header-text">Hjem</a></li>
-                            <li><a href="produkt.html" class="footer-header-text">Menn</a></li>
-                            <li><a href="produkt.html" class="footer-header-text">Women</a></li>
-                            <li><a href="leveranseside.html" class="footer-header-text">my page</a></li>
-                            <li><a href="analyse.html" class="footer-header-text"> analyse</a></li>
-                        </ul>
-                    </nav>
-                    <nav id="icons">
-                        <div class="container">
-                            <i class="fa-solid fa-heart"></i> 
-                            <i class="fa-solid fa-user"></i>  
-                            <i class="fa-solid fa-cart-shopping"></i> 
-                        </div>
-                    </nav>
-                    <nav id="search_bar"> 
-                        <input type="text" placeholder="search"> 
-                    </nav>
-                </div>
-         </header>
-            <main id="grid-container">
-                <h1 class="hidden">Våre Produkter</h1> 
-                <section id="shipping_container"> 
-                    <p>Free shipping on orders over 1000kr</p>
-                </section>
-                <section>
-                    <article id="shop-now-or-sale">
-                        <h3>IN TREND NOW!</h3>
-                        <nav>
-                            <ul>
-                                <li><a href="produkt.html">SHOP NOW</a></li>
-                                <li><a href="produkt.html">Products</a></li>
-                            </ul>
-                        </nav>
-                    </article>
-                    <article id="example_products">
-                        <h3 class="hidden">PRODUCT DISPLAY HIDDEN</h3>
-                        <ul>
-                            <li>
-                                <p>PRODUCT NAME</p>
-                                <a href="produkt.html">SHOP NOW</a>
-                            </li>
-                        </ul>
-                    </article>
-                    <article>
-                        <h3>SHOP AFTER CATEGORY</h3>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="#"><img src="https://www.offthehooklondon.com/upload/category/category_logo_1667025065.jpg" alt="MENN CATEGORY" class="img"></a>
-                                    <p>WOMEN</p>
-                                    <a href="#"><img src="https://www.dunelondon.com.au/cdn/shop/collections/220505_Dune_Category_Banners_Desktop_MCasuals.jpg?v=1673576175" alt ="WOMEN CATEGORY" class="img"></a>
-                                    <p>MEN</p> 
-                                </li>
-                            </ul>
-                        </nav>
-                    </article>
-                </section>
-            </main>
-            <footer class="footer">
-                <nav>
-                    <h2>Information about our page</h2>
+        <header>
+         <h1 class="logo"><a href="index.html">Level shoes</a></h1>
+         <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produkt.html">Menn</a></li>
+                <li><a href="produkt.html">Women</a></li>
+                <li><a href="leveranseside.html">My page</a></li>
+            </ul>
+         </nav>
+            <div class="container">
+                <i class="fa-solid fa-heart"></i> 
+                <i class="fa-solid fa-user"></i>  
+                <i class="fa-solid fa-cart-shopping"></i> 
+            </div>
+        <nav id="search_bar"> 
+            <input type="text" placeholder="search"> 
+        </nav>
+        </header>
+        <main>
+            <section class="intro">
+             <h2 class="shipping-title">Free shipping on orders over 1000kr <i class="fa-solid fa-truck-fast"></i></h2>  
+            </section>
+            <section class="banner" onclick="window.location.href='produkt.html';">
+                <button id="button-sale-shop-now">
+                  <span>
+                    <span>SALE!</span>
+                    <span>SHOP NOW!</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                </button>
+            </section>
+            <section class="flex-sb">
+                <article>
+                   <img src="img/54448fdfe921670193384716a3f7b6eebeacd0e1-1080x720.jpg" alt="new balance">
+                   <p class="text-design">NEW BALANCE 550</p>
+                   <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a hendrerit justo, at commodo orci. Sed sit amet purus quis ante tristique consequat et vitae erat. Curabitur id velit quis ligula dapibus facilisis. Integer ut dolor mauris. </p>
+                </article>
+                <article>
+                   <img src="img/image.jpg" alt="nike dunk low">
+                   <p class="text-design">NIKE DUNKS LIGHT BLUE</p>
+                   <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a hendrerit justo, at commodo orci. Sed sit amet purus quis ante tristique consequat et vitae erat. Curabitur id velit quis ligula dapibus facilisis. Integer ut dolor mauris. </p>
+                </article>
+            </section>
+            <section class="shop-after-category">
+                <h3>SHOP AFTER CATEGORY</h3>
+            </section>
+            <section class="pics-category">
+                <img src="img/category_logo_1667025065.jpg" alt="women in the picture">
+                <p class="category-text">WOMEN</p>
+                <img src="img/22-03-22_M_OF_V02_0229_2x3-1-scaled.jpeg" alt="men in the picture">
+                <p>MEN</p>
+            </section>
+             <footer class="footer-header">
                     <ul>
-                        <li><a href="#" class="footer-header-text">Customer service</a></li>
-                        <li><a href="#" class="footer-header-text">About us</a></li>
+                        <li>
+                            <i class="fa-solid fa-plus"> ABOUT US</i>
+                            <i class="fa-solid fa-plus"> Customer service</i>
+                            
+                        </li>
                     </ul>
-                </nav>
-                <ul id="social-icons">
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">facebook</a></li>
-                </ul>
+                    <ul class="footer-socials">
+                        <li><i class="fa-solid fa-arrow-down"></i></li>
+                        <li><a href="https://www.instagram.com/"> Instagram</a></li>
+                        <li><a href="https://www.facebook.com/"> Facebook</a></li>
+                    </ul>
             </footer>
-        </div>
+        </main>
     </body>
-</html>
+</html>   
