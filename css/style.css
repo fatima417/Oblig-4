@@ -13,7 +13,7 @@ body {
 }
 
 header{
-  background-color: grey;
+  background-color:thistle;
   color: #fff;
   display: grid;
   grid-area: header;
@@ -30,6 +30,11 @@ main {
 li {
   list-style: none;
   text-decoration: none;
+  align-items: center;
+  font-size: 18px;
+  padding: 10px;
+ 
+
 }
 
 img {
@@ -41,8 +46,8 @@ a {
 }
 
 footer{
-  background-color: grey;
-  color: #fff;
+  background-color: thistle;
+  color:black;
   text-align: center;
   grid-area: footer;
   display: grid;
@@ -53,6 +58,7 @@ nav {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  text-decoration: double;
 }
 
 .footer-socials{
